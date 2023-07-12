@@ -249,7 +249,7 @@
   .subscribe .container {
     width: 80%;
     height: 400px;
-    background-image: url(./image/Rectangle\ 9.png);
+    background-image: url(../image/Rectangle\ 9.png);
     background-position: center;
     background-size: cover;
     display: flex;
