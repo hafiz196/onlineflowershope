@@ -1,0 +1,292 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .banner {
+    height: 90vh;
+    width: 100%;
+    background-color: #e5547330;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .bannerText {
+    width: 60%;
+    padding: 150px;
+  }
+  .bannerImage {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+  }
+  .txtitle {
+    font-family: inter, sans-serif;
+    font-size: 4rem;
+  }
+  .txDescribe {
+    font-family: inter, sans-serif;
+    font-size: 1rem;
+    color: #46101b97;
+    margin-top: 15px;
+  }
+  
+  .banner button {
+    background-color: #e55473;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  .cardTitle {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    width: 500px;
+    padding: 20px 0px;
+  }
+  .titlebox {
+    text-align: center;
+  }
+  .cardSlid {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cards {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+  }
+  .cardsItem1 {
+  }
+  .cardImage1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 400px;
+    width: 350px;
+    background-color: rgba(5, 151, 160, 0.15);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
+  
+  .cardImage2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 400px;
+    width: 350px;
+    background-color: rgba(167, 33, 98, 0.15);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
+  .cardImage3 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 400px;
+    width: 350px;
+    background-color: rgba(71, 125, 17, 0.15);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
+  
+  .cardSlid img {
+    height: 350px;
+    width: 300px;
+  }
+  
+  .cardfooter {
+    text-align: center;
+    padding: 15px 0px;
+  }
+  
+  .helpSid {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .helpSid .container {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5547330;
+    border: #e55473;
+  }
+  .cardName {
+    text-align: center;
+  }
+  .card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+  }
+  .banner2 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner2 .container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(229, 84, 115, 0.05);
+  }
+  .textPart {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-left: 200px;
+    line-height: 1.8;
+  }
+  .bannerimagePart {
+    width: 40%;
+    display: flex;
+    /* align-items: flex-start;
+              justify-content: center;  */
+  }
+  
+  .banner2 button {
+    background-color: #e55473;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .cardSlid2 {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cards2 {
+    width: 80%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .cardImg1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 350px;
+    width: 300px;
+    margin-left: 10px;
+  }
+  
+  .cardImg2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 350px;
+    width: 300px;
+    margin-left: 10px;
+  }
+  .cardImg3 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 350px;
+    width: 300px;
+    margin-left: 10px;
+  }
+  .cardImg4 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 350px;
+    width: 300px;
+    margin-left: 10px;
+  }
+  
+  .cardSlid img {
+    height: 350px;
+    width: 300px;
+  }
+  
+  .spach {
+    width: 100%;
+    height: 100px;
+  }
+  .subscribe {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .subscribe .container {
+    width: 80%;
+    height: 400px;
+    background-image: url(./image/Rectangle\ 9.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .subscribeBox input {
+    /* size: 400; */
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+  }
+  
+  .subscribeBox button {
+    background-color: #e55473;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  footer {
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
